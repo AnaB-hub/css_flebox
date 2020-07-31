@@ -1,0 +1,22 @@
+* {
+  /* border: 1px solid red; */
+}
+
+body {
+  width: 80%;
+  margin: 0 auto; /*Centraliza*/
+  margin-bottom: 2%;
+}
+
+.flex-container {
+  border: 1px solid #333;
+  width: 80%; /*width: 600px - não é boa prática, pq não fica responsivo*/
+  display: flex;
+}
+
+.box {
+  background-color: orange;
+  border: 2px solid gray;
+  padding: 0 40px;
+  border-radius: 5px;
+}
