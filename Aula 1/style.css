@@ -12,6 +12,9 @@ body {
   border: 1px solid #333;
   width: 80%; /*width: 600px - não é boa prática, pq não fica responsivo*/
   display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row wrap;
 }
 
 .box {
